@@ -168,8 +168,11 @@ def prepare_single_table(table, normalized_data_directory, hdf_data_directory, m
                         assert (table_data[rel_attribute] == unique_null_val).any(), "Null value cannot be found"
                 table_meta_data['null_values_column'].append(unique_null_val)
 
-        logger.info(f"Most common element: {common_element(table_data[rel_attribute])}")
-        logger.info(f"Least common element: {common_element(table_data[rel_attribute], least_common=True)}")
+        try:
+            logger.info(f"Most common element: {common_element(table_data[rel_attribute])}")
+            logger.info(f"Least common element: {common_element(table_data[rel_attribute], least_common=True)}")
+        except TypeError:
+            pass
         # logger.info(f"element_1: {np.where(table_data[rel_attribute] == 1)[0]}")
 
     # remove categorical columns with too many entries from relevant tables and dataframe
