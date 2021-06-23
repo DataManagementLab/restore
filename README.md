@@ -58,12 +58,20 @@ Plots were generated using `exp_bias_reduction.ipynb`, `exp_confidence_intervals
 If you find this code useful in your research, please consider citing:
 
 ```
-@misc{hilprecht2021restore,
-      title={ReStore -- Neural Data Completion for Relational Databases}, 
-      author={Benjamin Hilprecht and Carsten Binnig},
-      year={2021},
-      eprint={2105.12457},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB}
+@inproceedings{10.1145/3448016.3457264,
+      author = {Hilprecht, Benjamin and Binnig, Carsten},
+      title = {ReStore - Neural Data Completion for Relational Databases},
+      year = {2021},
+      isbn = {9781450383431},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      url = {https://doi.org/10.1145/3448016.3457264},
+      doi = {10.1145/3448016.3457264},
+      booktitle = {Proceedings of the 2021 International Conference on Management of Data},
+      pages = {710–722},
+      numpages = {13},
+      keywords = {incomplete data, deep autoregressive models, data-driven learning, data completion, relational data},
+      location = {Virtual Event, China},
+      series = {SIGMOD/PODS '21}
 }
 ```
