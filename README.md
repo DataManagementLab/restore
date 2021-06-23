@@ -1,7 +1,7 @@
 # ReStore - Neural Data Completion for Relational Databases
 
 This repository contains the code for our paper "ReStore - Neural Data Completion for Relational Databases".
-([arXiv](https://arxiv.org/abs/2105.12457))
+[\[paper\]](https://dl.acm.org/doi/10.1145/3448016.3457264) [\[arXiv\]](https://arxiv.org/abs/2105.12457)
 
 ![ReStore Overview](res/restore.png "ReStore Overview")
 
